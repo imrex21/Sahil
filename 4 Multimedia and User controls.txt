@@ -1,0 +1,80 @@
+a)Design a web page with a form that uses all types of user controls.
+
+Code:
+<!doctype html>
+<html>
+<heading>
+<title>sayee</title>
+</heading>
+<h2><b>Forms</b></h2>
+<body>
+<form>
+Enter your name <input type="text" required id="name"> </input><br>
+Enter your email id<input type="email" id="email"> </input><br>
+Enter your password<input type="password" required id="pass"></input><br>
+<input type="submit"<button onclick> </input>
+</form>
+</body>
+</html>
+
+
+b) Video code:
+
+<!doctype html>
+<html>
+<head>
+<title>video</title>
+</head>
+<body>
+<video width="320" height="240" controls>
+ <source src="E:\image\mov_bbb.mp4" type="video/mp4">
+ <source src="E:\image\mov_bbb.mp4"type="video/ogg">
+</video>
+</body>
+</html>
+
+
+c) Design a 3 page static website with appropriate tags and attributes.
+
+Code:
+i)third page:
+<!doctype html>
+<html>
+<head>
+<title>video</title>
+</head>
+<body>
+<p>This is the third page</p><br>
+<p>Nature, in the broadest sense, is the physical world or universe. <br>"Nature" can refer
+to the phenomena of the physical world, and also to life in general.<br> The study of nature
+is a large, if not the only, part of science.
+<a href="file:///C:/Users/Admin/Downloads/secondt.html"> second page</a>
+</body>
+</html>
+
+ii).second page:
+<!doctype html>
+<html>
+<head>
+<title>video</title>
+</head>
+<body>
+<p>This is secondpage</p><br>
+<p>ahfgdhdfvsjgdgjdg</p>
+<a href="file:///C:/Users/Admin/Downloads/first.html"> first page</a>
+</body>
+</html>
+
+iii.for first page:
+<!doctype html>
+<html>
+<head>
+<title>video</title>
+</head>
+<body>
+<p>This is the first page<br>
+Web pages are delivered by a web server to the user and displayed in a web browser. <br>A
+website consists of many web pages linked together under a common domain name. <br>The
+name "web page" is a metaphor of paper pages bound together into a book.
+</body>
+</html>

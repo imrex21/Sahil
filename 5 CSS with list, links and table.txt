@@ -1,0 +1,78 @@
+a)Create and use different style rules with available types of lists.
+
+Code:
+<!doctype html>
+<html>
+<head>
+<titleCSS</title>
+</head>
+<body
+ol {
+ padding-left: 2rem;
+ list-style-type:dots;
+}
+ol li {
+ padding-left: 2rem;
+ background-position: 0 0;
+ background-size: 1.6rem 1.6rem;
+}>
+<ol start="2"> Names
+<li>Sayee</li>
+<li>Rutuja</li>
+<li>Siddhi</li>
+<li>Harshala</li>
+</ol>
+</body>
+</html>
+
+
+b)Create and use different style rules with hyperlinks.
+
+Code:
+<!doctype html>
+<html>
+<head>
+<title>LINKS</title>
+</head>
+<body a link="black" vlink="red">
+<p>
+These are different types of browsers
+<ul>
+<li><a href="http://google.com">Google</a></li>
+<li><a href="start">Microsoft Edge</a></li>
+<li><a href="gsfdfyts">Mozilla Firefox</a></li>
+</ul>
+</p>
+</body>
+</html>
+
+
+c)Create and use different style rules with tables.
+
+Code:
+<!doctype html>
+<html>
+<head>
+<title>TABLES</title>
+</head>
+<body>
+<table border=3px>
+<tr>
+<th colspan="5">Table of student and classes</th>
+<tr>
+<th>Student Name</th>
+<td>Sayee</td>
+<td>Nidhi</td>
+<td>Rutuja</td>
+<td>Isha</td>
+</tr>
+<tr>
+<th>Class</th>
+<td>FYDS</td>
+<td>BMS</td>
+<td>FYDS</td>
+<td>BAF</td>
+</table>
+</body>
+</html>
+

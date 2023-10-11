@@ -1,0 +1,83 @@
+a)Demonstrate the use of Document object methods.
+
+Code:
+<!doctype html>
+<html>
+<head>
+<title>My title</title>
+</head>
+<body>
+The title of document is:
+<script type:"text/javascript">
+document .write(document title);
+</script>
+<body>
+</html>
+
+
+b)Using java script, demonstrate validating Radio buttons and Validating MultiSelect Boxes.
+
+<!doctype html>
+<html>
+<head>
+<title>forms</title>
+</head>
+<body>
+<form>
+Name<input type="text" required id="name"></input>
+<br/>
+Age<input type="number" id="num"> </input>
+<br/>
+Gender<input type="radio"id="r1">Male</input>
+ <input type="radio" id="r1">Female</input>
+<br/>
+Hobbies<select multiple id="sel">
+<option>reading</option>
+<option>dancing</option>
+<option>singing</option>
+</select>
+<br/>
+Gmail<input type="email" id="email"></input>
+<br/>
+Add<Textarea cols="5" id="add"></textarea>
+<br/>
+Submit<input type="submit"></input>
+</form>
+<script type= "text/javascript">
+function Val()
+{Var a,b,c,d,e;
+a=document. get ElementById("name").value;
+b=document. get ElementById("num").value;
+c=document. get ElementById("r1").value;
+d=document. get ElementById("email").value;
+e=document. get ElementById("add").value;
+if (name == "" || regName.test(name)) {
+ window.alert("Please enter your name properly.");
+ name.focus();
+ return false;
+ }
+if (age == "") {
+ window.alert("age invalid");
+ age.focus();
+ return false;
+ }
+if(Gender==""){
+ windows .alert("please choose your gender");
+ Gender.focus();
+ return false;
+ }
+if (email == "" || !regEmail.test(email)) {
+ window.alert("Please enter a valid email address.");
+ email.focus();
+ return false;
+ }
+
+if (add == "") {
+ window.alert("Please enter your address.");
+ address.focus();
+ return false;
+ }
+}
+</script>
+</body>
+</html>

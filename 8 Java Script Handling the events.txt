@@ -1,0 +1,55 @@
+Code:
+<!doctype html>
+<html>
+<head> Javascript Events </head>
+<body>
+<script language="Javascript" type="text/Javascript">
+ <!--
+ function click event()
+ {
+ document.write("This is New page");
+ }
+ //-->
+</script>
+<form>
+<input type="button" onclick="click event()" value="new page"/>
+</form>
+</body>
+</html> 
+
+
+Code:
+<html>
+<head>
+<h1> Javascript Events </h1>
+</head>
+<body>
+<script language="Javascript" type="text/Javascript">
+<!--
+function mouseover event()
+{
+alert("This is new page");
+}
+//-->
+</script>
+<p onmouseover="mouseoverevent()"> Keep cursor over me</p>
+</body>
+</html>
+
+
+code:
+<head> Javascript Events</head>
+<body>
+<h2> Enter something here</h2>
+<input type="text" id="input1" onkeydown="keydownevent()"/>
+<script>
+<!--
+function keydownevent()
+{
+document.getElementById("input1");
+alert("Pressed a key");
+}
+//-->
+</script>
+</body>
+</html>

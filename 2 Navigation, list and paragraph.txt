@@ -1,0 +1,88 @@
+a)Design a web page to demonstrate a text-based navigation bar.
+
+Code:
+<!Doctype Html>
+<Html>
+<Head>
+<Title>
+Make a Navigation Bar
+</Title>
+<style type=text/css>
+body
+{
+height: 125vh;
+margin-top: 80px;
+padding: 30px;
+background-size: cover;
+font-family: sans-serif;
+}
+header {
+background-color: orange;
+position: fixed;
+left: 0;
+right: 0;
+top: 5px;
+height: 30px;
+display: flex;
+align-items: center;
+box-shadow: 0 0 25px 0 black;
+}
+header * {
+display: inline;
+} 
+header li {
+<li> <a href="#">Rivers </a>
+</li>
+<li>
+<a href="#"> Land </a>
+</li>
+</ul>
+</nav>
+</header>
+Nature
+</Body>
+</Html>
+
+
+b)Demonstrate use of lists and backgrounds in web pages.
+
+Code:
+<!doctype html>
+<html>
+<head>
+<title>list and background</title>
+</head>
+<body style="background-color:blue;">
+<ol><b>The Datatypes</b>
+<li>string</li>
+<li>Number</li>
+<li>Boolean</li>
+</ol>
+<ul>The Data Types
+<li>Strings</li>
+<li>Boolean</li>
+<li>Numeric</li>
+</ul>
+</body>
+</html>
+
+
+c)Demonstrate use of paragraph and its associated tags in web pages.
+
+Code:
+<!doctype html>
+<html>
+<head>
+<title>paragraphs</title>
+</head>
+<style>
+h2{
+color:blue;
+Text-align:center;
+}|
+</style>
+<body>
+<h2>Paragraph tag</h2>
+<p>This is a paragraph.<br>It contains various functions.</p>
+</body>
+</html>

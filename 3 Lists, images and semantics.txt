@@ -1,0 +1,25 @@
+Code:
+<!doctype html>
+<html>
+<head>
+<title>image</title>
+</head>
+<style>
+h2{
+color:violet;
+}
+</style>
+<body>
+<article>
+<h2>Article</h2>
+<p>This is an article.</p>
+</article>
+<img src="E:\image\pexels-frans-van-heerden-624015.jpg",width="100", height="100">
+<figure>Aurora</figure>
+<ol>NUMBERS
+<li>one</li>
+<li>two</li>
+<li>three</li>
+</ol>
+</body>
+</html>
